@@ -11,3 +11,5 @@ pytest
 xarray
 zarr>=3
 gcsfs
+matplotlib
+jinja2
