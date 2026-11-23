@@ -1,0 +1,476 @@
+{
+ "synthetic": false,
+ "created": "2026-11-22T21:03",
+ "notes": "",
+ "region": {
+  "lat": [
+   -35.0,
+   38.0
+  ],
+  "lon": [
+   -18.0,
+   52.0
+  ]
+ },
+ "lead_days": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "event_mm_day": 10.0,
+ "res_mm_day": 0.1,
+ "zone_sample_locs": 1000,
+ "num_data_pts": 50000,
+ "zone_min_valid": 100,
+ "seed": 0,
+ "test_sample_per_zone": 20000,
+ "coarsen": 2,
+ "case_heavy_mm_day": 50.0,
+ "n_land": 295261,
+ "zones": {
+  "1": {
+   "code": "Af",
+   "name": "Tropical rainforest",
+   "color": "#0000ff",
+   "n_pixels": 5929
+  },
+  "2": {
+   "code": "Am",
+   "name": "Tropical monsoon",
+   "color": "#0078ff",
+   "n_pixels": 8347
+  },
+  "3": {
+   "code": "Aw",
+   "name": "Tropical savannah",
+   "color": "#46aafa",
+   "n_pixels": 73227
+  },
+  "4": {
+   "code": "BWh",
+   "name": "Hot desert",
+   "color": "#ff0000",
+   "n_pixels": 134430
+  },
+  "5": {
+   "code": "BWk",
+   "name": "Cold desert",
+   "color": "#ff9696",
+   "n_pixels": 2488
+  },
+  "6": {
+   "code": "BSh",
+   "name": "Hot steppe",
+   "color": "#f5a500",
+   "n_pixels": 36983
+  },
+  "7": {
+   "code": "BSk",
+   "name": "Cold steppe",
+   "color": "#ffdc64",
+   "n_pixels": 5969
+  },
+  "8": {
+   "code": "Csa",
+   "name": "Mediterranean, hot summer",
+   "color": "#ffff00",
+   "n_pixels": 7848
+  },
+  "9": {
+   "code": "Csb",
+   "name": "Mediterranean, warm summer",
+   "color": "#c8c800",
+   "n_pixels": 2034
+  },
+  "11": {
+   "code": "Cwa",
+   "name": "Dry winter, hot summer",
+   "color": "#96ff96",
+   "n_pixels": 8937
+  },
+  "12": {
+   "code": "Cwb",
+   "name": "Highland, dry winter",
+   "color": "#64c864",
+   "n_pixels": 4850
+  },
+  "14": {
+   "code": "Cfa",
+   "name": "Humid subtropical",
+   "color": "#c8ff50",
+   "n_pixels": 633
+  },
+  "15": {
+   "code": "Cfb",
+   "name": "Oceanic",
+   "color": "#64ff50",
+   "n_pixels": 1486
+  },
+  "17": {
+   "code": "Dsa",
+   "name": "Continental, dry hot summer",
+   "color": "#ff00ff",
+   "n_pixels": 1300
+  },
+  "18": {
+   "code": "Dsb",
+   "name": "Continental, dry warm summer",
+   "color": "#c800c8",
+   "n_pixels": 754
+  },
+  "19": {
+   "code": "Dsc",
+   "name": "Continental, dry cool summer",
+   "color": "#963296",
+   "n_pixels": 12
+  },
+  "23": {
+   "code": "Dwc",
+   "name": "Continental, dry winter, cool",
+   "color": "#4b50b4",
+   "n_pixels": 6
+  },
+  "26": {
+   "code": "Dfb",
+   "name": "Continental, humid, warm",
+   "color": "#37c8ff",
+   "n_pixels": 7
+  },
+  "29": {
+   "code": "ET",
+   "name": "Tundra",
+   "color": "#b2b2b2",
+   "n_pixels": 21
+  }
+ },
+ "per_lead": {
+  "2": {
+   "1": {
+    "n_valid_test": 1677907,
+    "n_train": 50000
+   },
+   "2": {
+    "n_valid_test": 2362201,
+    "n_train": 50000
+   },
+   "3": {
+    "n_valid_test": 20723241,
+    "n_train": 50000
+   },
+   "4": {
+    "n_valid_test": 38043690,
+    "n_train": 50000
+   },
+   "5": {
+    "n_valid_test": 704104,
+    "n_train": 50000
+   },
+   "6": {
+    "n_valid_test": 10466189,
+    "n_train": 50000
+   },
+   "7": {
+    "n_valid_test": 1689227,
+    "n_train": 50000
+   },
+   "8": {
+    "n_valid_test": 2220984,
+    "n_train": 50000
+   },
+   "9": {
+    "n_valid_test": 575622,
+    "n_train": 50000
+   },
+   "11": {
+    "n_valid_test": 2529171,
+    "n_train": 50000
+   },
+   "12": {
+    "n_valid_test": 1372550,
+    "n_train": 50000
+   },
+   "14": {
+    "n_valid_test": 179139,
+    "n_train": 50000
+   },
+   "15": {
+    "n_valid_test": 420538,
+    "n_train": 50000
+   },
+   "17": {
+    "n_valid_test": 367900,
+    "n_train": 50000
+   },
+   "18": {
+    "n_valid_test": 213382,
+    "n_train": 50000
+   },
+   "19": {
+    "n_valid_test": 3396,
+    "n_train": 3672
+   },
+   "23": {
+    "n_valid_test": 1698,
+    "n_train": 1836
+   },
+   "26": {
+    "n_valid_test": 1981,
+    "n_train": 2142
+   },
+   "29": {
+    "n_valid_test": 5943,
+    "n_train": 6426
+   }
+  },
+  "3": {
+   "1": {
+    "n_valid_test": 1677907,
+    "n_train": 50000
+   },
+   "2": {
+    "n_valid_test": 2362201,
+    "n_train": 50000
+   },
+   "3": {
+    "n_valid_test": 20723241,
+    "n_train": 50000
+   },
+   "4": {
+    "n_valid_test": 38043690,
+    "n_train": 50000
+   },
+   "5": {
+    "n_valid_test": 704104,
+    "n_train": 50000
+   },
+   "6": {
+    "n_valid_test": 10466189,
+    "n_train": 50000
+   },
+   "7": {
+    "n_valid_test": 1689227,
+    "n_train": 50000
+   },
+   "8": {
+    "n_valid_test": 2220984,
+    "n_train": 50000
+   },
+   "9": {
+    "n_valid_test": 575622,
+    "n_train": 50000
+   },
+   "11": {
+    "n_valid_test": 2529171,
+    "n_train": 50000
+   },
+   "12": {
+    "n_valid_test": 1372550,
+    "n_train": 50000
+   },
+   "14": {
+    "n_valid_test": 179139,
+    "n_train": 50000
+   },
+   "15": {
+    "n_valid_test": 420538,
+    "n_train": 50000
+   },
+   "17": {
+    "n_valid_test": 367900,
+    "n_train": 50000
+   },
+   "18": {
+    "n_valid_test": 213382,
+    "n_train": 50000
+   },
+   "19": {
+    "n_valid_test": 3396,
+    "n_train": 3672
+   },
+   "23": {
+    "n_valid_test": 1698,
+    "n_train": 1836
+   },
+   "26": {
+    "n_valid_test": 1981,
+    "n_train": 2142
+   },
+   "29": {
+    "n_valid_test": 5943,
+    "n_train": 6426
+   }
+  },
+  "4": {
+   "1": {
+    "n_valid_test": 1677907,
+    "n_train": 50000
+   },
+   "2": {
+    "n_valid_test": 2362201,
+    "n_train": 50000
+   },
+   "3": {
+    "n_valid_test": 20723241,
+    "n_train": 50000
+   },
+   "4": {
+    "n_valid_test": 38043690,
+    "n_train": 50000
+   },
+   "5": {
+    "n_valid_test": 704104,
+    "n_train": 50000
+   },
+   "6": {
+    "n_valid_test": 10466189,
+    "n_train": 50000
+   },
+   "7": {
+    "n_valid_test": 1689227,
+    "n_train": 50000
+   },
+   "8": {
+    "n_valid_test": 2220984,
+    "n_train": 50000
+   },
+   "9": {
+    "n_valid_test": 575622,
+    "n_train": 50000
+   },
+   "11": {
+    "n_valid_test": 2529171,
+    "n_train": 50000
+   },
+   "12": {
+    "n_valid_test": 1372550,
+    "n_train": 50000
+   },
+   "14": {
+    "n_valid_test": 179139,
+    "n_train": 50000
+   },
+   "15": {
+    "n_valid_test": 420538,
+    "n_train": 50000
+   },
+   "17": {
+    "n_valid_test": 367900,
+    "n_train": 50000
+   },
+   "18": {
+    "n_valid_test": 213382,
+    "n_train": 50000
+   },
+   "19": {
+    "n_valid_test": 3396,
+    "n_train": 3672
+   },
+   "23": {
+    "n_valid_test": 1698,
+    "n_train": 1836
+   },
+   "26": {
+    "n_valid_test": 1981,
+    "n_train": 2142
+   },
+   "29": {
+    "n_valid_test": 5943,
+    "n_train": 6426
+   }
+  },
+  "5": {
+   "1": {
+    "n_valid_test": 1677907,
+    "n_train": 50000
+   },
+   "2": {
+    "n_valid_test": 2362201,
+    "n_train": 50000
+   },
+   "3": {
+    "n_valid_test": 20723241,
+    "n_train": 50000
+   },
+   "4": {
+    "n_valid_test": 38043690,
+    "n_train": 50000
+   },
+   "5": {
+    "n_valid_test": 704104,
+    "n_train": 50000
+   },
+   "6": {
+    "n_valid_test": 10466189,
+    "n_train": 50000
+   },
+   "7": {
+    "n_valid_test": 1689227,
+    "n_train": 50000
+   },
+   "8": {
+    "n_valid_test": 2220984,
+    "n_train": 50000
+   },
+   "9": {
+    "n_valid_test": 575622,
+    "n_train": 50000
+   },
+   "11": {
+    "n_valid_test": 2529171,
+    "n_train": 50000
+   },
+   "12": {
+    "n_valid_test": 1372550,
+    "n_train": 50000
+   },
+   "14": {
+    "n_valid_test": 179139,
+    "n_train": 50000
+   },
+   "15": {
+    "n_valid_test": 420538,
+    "n_train": 50000
+   },
+   "17": {
+    "n_valid_test": 367900,
+    "n_train": 50000
+   },
+   "18": {
+    "n_valid_test": 213382,
+    "n_train": 50000
+   },
+   "19": {
+    "n_valid_test": 3396,
+    "n_train": 3672
+   },
+   "23": {
+    "n_valid_test": 1698,
+    "n_train": 1836
+   },
+   "26": {
+    "n_valid_test": 1981,
+    "n_train": 2142
+   },
+   "29": {
+    "n_valid_test": 5943,
+    "n_train": 6426
+   }
+  }
+ },
+ "periods": {
+  "train": "02 Mar 2024 \u2013 14 Feb 2025",
+  "test": "01 Jan 2026 \u2013 29 Oct 2026",
+  "train_label": "AIFS runs Mar 2024 \u2013 Jan 2025, IMERG V07B Final",
+  "test_label": "AIFS runs Jan \u2013 Oct 2026, IMERG V07 (Late run where Final is not yet out)",
+  "clim_label": "IMERG climatology: all days within \u00b115 days of the date in 2000\u20132020 (~650 values)"
+ },
+ "files": {
+  "aifs_train": "aifs_tp24h_africa.zarr",
+  "aifs_test": "aifs_tp24h_africa_2026.zarr",
+  "imerg_train": "imerg_daily_africa_2024_2025.zarr",
+  "imerg_test": "imerg_daily_africa_2026.zarr",
+  "koppen": "koppen_geiger_africa_0p1.nc",
+  "clim_test": "imerg_clim_crps_daily_africa_2026.zarr"
+ }
+}

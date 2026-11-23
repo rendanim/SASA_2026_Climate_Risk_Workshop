@@ -1,0 +1,13 @@
+# AI for Climate Risk workshop app (AIFS -> IMERG calibration with IDR)
+# Tested with streamlit 1.67, plotly 7.1, numba 0.68, numpy 2.x
+numpy
+scipy
+pandas
+numba
+streamlit>=1.55,<2
+plotly>=6,<8
+pytest
+# Only needed to build the real data bundle (prepare_data.py without --synthetic):
+xarray
+zarr>=3
+gcsfs
